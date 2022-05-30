@@ -1,3 +1,39 @@
 /* ---
 Abrindo para commitar a folha de estilo no vscode
 ---*/
+ /* Style the video: 100% width and height to cover the entire window */
+ #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  /* Conteúdo de texto abaixo do vídeo */
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Estilo do 'button' para [SEM] [SOM] */
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+/* Adicionar on mouse hover, mudança no background */
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  } 
+/* nova formatação de estilos e efeitos a acrescentar depois ... */
